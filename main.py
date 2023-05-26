@@ -3,8 +3,8 @@ import streamlit as st
 
 def get_pass_list(data, save, sex):
     """choosing who is saved"""
-    if sex =='мужчины':
-        sex ='male'
+    if sex == 'мужчины':
+        sex = 'male'
     else:
         sex ='female'
     out_list = []
@@ -13,7 +13,7 @@ def get_pass_list(data, save, sex):
             out_list += [line]
     return out_list
 
-with open('data.csv') as data:
+with open('data.csv') as file:
     data =file.readlines()
 
 def makarnv_code():
