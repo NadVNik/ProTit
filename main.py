@@ -1,4 +1,4 @@
-#Лабораторная работа #11-13. Используя приложенный файл data.csv/
+"""sorting the passenger list"""
 
 
 import streamlit as st
